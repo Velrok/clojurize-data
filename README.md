@@ -6,12 +6,12 @@ a more clojury looking map further down the process.
 
 ## Usage
 
-```
+```clojure
 (use 'clojurize-data.core :refer [clojurize])
 ```
 
-```
-(clojurize {"a" "b"}) -> {:a "b"}
+```clojure
+(clojurize {"a" "b"}); -> {:a "b"}
 ```
 
 ## License
